@@ -1,0 +1,13 @@
+{
+  "name": "WebApp",
+  "version": "0.0.0",
+  "description": "WebApp",
+  "main": "app.js",
+  "author": {
+    "name": "swartzje",
+    "email": ""
+  },
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}

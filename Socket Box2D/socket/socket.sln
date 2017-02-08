@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "socket", "..\socket", "{56F07F3A-D642-4116-959B-73064A1E095E}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/socket"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\socket\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\socket\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/socket"
+		Release.AspNetCompiler.PhysicalPath = "..\..\socket\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\socket\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "18880"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketEF", "SocketEF\SocketEF.csproj", "{2BC402B6-BEDE-4882-9A1E-1B69BD419D68}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://esiege.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SocketEF\\SocketEF.csproj
+		SccProjectName1 = SocketEF
+		SccLocalPath1 = SocketEF
+		SccWebProject2 = true
+		SccProjectUniqueName2 = ..
+		SccProjectName2 = ../
+		SccLocalPath2 = ..
+		SccProjectEnlistmentChoice2 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56F07F3A-D642-4116-959B-73064A1E095E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F07F3A-D642-4116-959B-73064A1E095E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F07F3A-D642-4116-959B-73064A1E095E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F07F3A-D642-4116-959B-73064A1E095E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2BC402B6-BEDE-4882-9A1E-1B69BD419D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC402B6-BEDE-4882-9A1E-1B69BD419D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC402B6-BEDE-4882-9A1E-1B69BD419D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC402B6-BEDE-4882-9A1E-1B69BD419D68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

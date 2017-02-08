@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{c202d66f-b2be-4359-b7ac-58f919948b2b}</ProjectGuid>
+        <ProjectHome>socket\socket\</ProjectHome>
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile>app.js</StartupFile>
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include="package.json" />
+        <Content Include="README.md" />
+        <Compile Include="app.js" />
+        <Compile Include="test.js" />
+        <Content Include="fonts\glyphicons-halflings-regular.svg" />
+        <Content Include="public\index.html" />
+        <Compile Include="routes\index.js" />
+        <Compile Include="routes\room.js" />
+        <Compile Include="routes\SQL.js" />
+        <Content Include="views\index.jade" />
+        <Content Include="public\images\bg.png" />
+        <Content Include="public\Content\css\actions.css" />
+        <Content Include="public\Content\css\board.css" />
+        <Content Include="public\Content\css\characters.css" />
+        <Content Include="public\Content\css\elements.css" />
+        <Content Include="public\Content\css\layout.css" />
+        <Content Include="public\Content\css\objects.css" />
+        <Content Include="public\Content\css\bootstrap\bootstrap-theme.css" />
+        <Content Include="public\Content\css\bootstrap\bootstrap-theme.min.css" />
+        <Content Include="public\Content\css\bootstrap\bootstrap.css" />
+        <Content Include="public\Content\css\bootstrap\bootstrap.min.css" />
+        <Content Include="public\images\actions\gray1.png" />
+        <Content Include="public\images\actions\gray2.png" />
+        <Content Include="public\images\actions\gray3.png" />
+        <Content Include="public\images\misc\block.png" />
+        <Content Include="public\images\misc\bodybox_bg.png" />
+        <Content Include="public\images\misc\forest.png" />
+        <Content Include="public\images\misc\glyphicons-halflings-white.png" />
+        <Content Include="public\images\misc\glyphicons-halflings.png" />
+        <Content Include="public\images\misc\a.jpg" />
+        <Content Include="public\images\misc\a_NRM.jpg" />
+        <Content Include="public\images\misc\b.jpg" />
+        <Content Include="public\images\misc\buddah.jpg" />
+        <Content Include="public\images\misc\buddah_normals.jpg" />
+        <Content Include="public\images\misc\charnelwinds.jpg" />
+        <Content Include="public\images\misc\charnelwinds_NRM.jpg" />
+        <Content Include="public\images\misc\charnelwinds_SPEC.jpg" />
+        <Content Include="public\images\misc\dungeon.jpg" />
+        <Content Include="public\images\misc\dungeon_NRM.jpg" />
+        <Content Include="public\images\misc\forest.jpg" />
+        <Content Include="public\images\misc\forest_NRM.jpg" />
+        <Content Include="public\images\misc\normal.jpg" />
+        <Content Include="public\images\misc\normalTest.jpg" />
+        <Content Include="public\images\misc\overheadSpriteExample.jpg" />
+        <Content Include="public\images\misc\overheadSpriteExample_normals.jpg" />
+        <Content Include="public\images\misc\vines.jpg" />
+        <Content Include="public\images\misc\vines_normal - Copy.jpg" />
+        <Content Include="public\images\misc\vines_normal.jpg" />
+        <Content Include="public\images\misc\buddah.gif" />
+        <Content Include="public\images\misc\Distant-Planet_01.gif" />
+        <Content Include="public\images\misc\Distant-Planet_02.gif" />
+        <Content Include="public\images\misc\Distant-Planet_03.gif" />
+        <Content Include="public\images\misc\Distant-Planet_04.gif" />
+        <Content Include="public\images\misc\Distant-Planet_05.gif" />
+        <Content Include="public\images\misc\Distant-Planet_06.gif" />
+        <Content Include="public\images\misc\Distant-Planet_07.gif" />
+        <Content Include="public\images\misc\Distant-Planet_08.gif" />
+        <Content Include="public\images\misc\overheadSpriteExample.gif" />
+        <Content Include="public\images\misc\a.bmp" />
+        <Content Include="public\images\grid\bg\grasstile.png" />
+        <Content Include="public\images\grid\sprites\large sqwaker.png" />
+        <Content Include="public\images\grid\sprites\moopsi.png" />
+        <Content Include="public\images\grid\sprites\small sqwaker.png" />
+        <Content Include="public\images\misc\testSprite\body.png" />
+        <Content Include="public\images\misc\testSprite\feet.png" />
+        <Content Include="public\images\misc\testSprite\hands.png" />
+        <Content Include="public\images\misc\testSprite\head.png" />
+        <Content Include="public\images\sprites\static\boardBG.png" />
+        <Content Include="public\images\sprites\static\boardBG2.png" />
+        <Content Include="public\images\sprites\static\clouds.png" />
+        <Content Include="public\images\sprites\static\level.png" />
+        <Content Include="public\images\sprites\z_old\ghostsngoblinsSpriteSheet.png" />
+        <Content Include="public\images\sprites\z_old\idle.png" />
+        <Content Include="public\images\sprites\z_old\sidestep.png" />
+        <Content Include="public\images\sprites\z_old\theman.png" />
+        <Content Include="public\images\sprites\z_old\theman_NRM.png" />
+        <Content Include="public\images\sprites\z_old\walking.png" />
+        <Content Include="public\images\sprites\z_old\theman_NRM.jpg" />
+        <Content Include="public\images\sprites\_simple\chars\user.png" />
+        <Content Include="public\images\sprites\_simple\static\level.png" />
+        <Compile Include="public\js\angular\app.js" />
+        <Compile Include="public\js\angular\controllers.js" />
+        <Compile Include="public\js\angular\directives.js" />
+        <Compile Include="public\js\angular\filters.js" />
+        <Compile Include="public\js\angular\services.js" />
+        <Compile Include="public\js\Canvas\animationState.js" />
+        <Compile Include="public\js\Canvas\helpers.js" />
+        <Compile Include="public\js\Canvas\input.js" />
+        <Compile Include="public\js\Canvas\levels.js" />
+        <Compile Include="public\js\Canvas\objects.js" />
+        <Compile Include="public\js\Canvas\player.js" />
+        <Compile Include="public\js\Canvas\sprite.js" />
+        <Compile Include="public\js\Canvas\update.js" />
+        <Compile Include="public\js\demos\demos.js" />
+        <Compile Include="public\js\demos\draw_world.js" />
+        <Compile Include="public\js\demos\old_player.js" />
+        <Compile Include="public\js\demos\player.js" />
+        <Compile Include="public\js\lib\angular.min.js" />
+        <Compile Include="public\js\lib\bootstrap.js" />
+        <Compile Include="public\js\lib\bootstrap.min.js" />
+        <Compile Include="public\js\lib\Box2dWeb-2.1.a.3.js" />
+        <Compile Include="public\js\lib\Box2dWeb-2.1.a.3.min.js" />
+        <Compile Include="public\js\lib\excanvas-compressed.js" />
+        <Compile Include="public\js\lib\excanvas.js" />
+        <Compile Include="public\js\lib\jquery-1.10.2.min.js" />
+        <Compile Include="public\js\lib\jquery-1.9.1.intellisense.js" />
+        <Compile Include="public\js\lib\jquery-1.9.1.js" />
+        <Compile Include="public\js\lib\jquery-1.9.1.min.js" />
+        <Compile Include="public\js\lib\peer.min.js" />
+        <Compile Include="public\js\lib\prototype-1.6.0.2.js" />
+        <Compile Include="public\js\misc\keycodes.js" />
+        <Compile Include="public\js\misc\light.js" />
+        <Compile Include="public\js\misc\pen.js" />
+        <Compile Include="public\js\angular\Factories\query.js" />
+        <Compile Include="public\js\angular\Factories\update.js" />
+        <Compile Include="public\js\demos\ref\compound.js" />
+        <Compile Include="public\js\demos\ref\crank.js" />
+        <Compile Include="public\js\demos\ref\pendulum.js" />
+        <Compile Include="public\js\demos\ref\stack.js" />
+        <Compile Include="public\js\demos\ref\top.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2AABB.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2Bound.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2BoundValues.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2BroadPhase.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2BufferedPair.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2Collision.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2ContactID.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2ContactPoint.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2Distance.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2Manifold.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2OBB.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2Pair.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2PairCallback.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2PairManager.js" />
+        <Compile Include="public\js\lib\box2d\collision\b2Proxy.js" />
+        <Compile Include="public\js\lib\box2d\collision\ClipVertex.js" />
+        <Compile Include="public\js\lib\box2d\collision\Features.js" />
+        <Compile Include="public\js\lib\box2d\common\b2Settings.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\b2Body.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\b2BodyDef.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\b2CollisionFilter.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\b2ContactManager.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\b2Island.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\b2TimeStep.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\b2World.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\b2WorldListener.js" />
+        <Compile Include="public\js\lib\box2d\collision\shapes\b2BoxDef.js" />
+        <Compile Include="public\js\lib\box2d\collision\shapes\b2CircleDef.js" />
+        <Compile Include="public\js\lib\box2d\collision\shapes\b2CircleShape.js" />
+        <Compile Include="public\js\lib\box2d\collision\shapes\b2MassData.js" />
+        <Compile Include="public\js\lib\box2d\collision\shapes\b2PolyDef.js" />
+        <Compile Include="public\js\lib\box2d\collision\shapes\b2PolyShape.js" />
+        <Compile Include="public\js\lib\box2d\collision\shapes\b2Shape.js" />
+        <Compile Include="public\js\lib\box2d\collision\shapes\b2ShapeDef.js" />
+        <Compile Include="public\js\lib\box2d\common\math\b2Mat22.js" />
+        <Compile Include="public\js\lib\box2d\common\math\b2Math.js" />
+        <Compile Include="public\js\lib\box2d\common\math\b2Vec2.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\contacts\b2CircleContact.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\contacts\b2Conservative.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\contacts\b2Contact.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\contacts\b2ContactConstraint.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\contacts\b2ContactConstraintPoint.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\contacts\b2ContactNode.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\contacts\b2ContactRegister.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\contacts\b2ContactSolver.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\contacts\b2NullContact.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\contacts\b2PolyAndCircleContact.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\contacts\b2PolyContact.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2DistanceJoint.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2DistanceJointDef.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2GearJoint.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2GearJointDef.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2Jacobian.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2Joint.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2JointDef.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2JointNode.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2MouseJoint.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2MouseJointDef.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2PrismaticJoint.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2PrismaticJointDef.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2PulleyJoint.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2PulleyJointDef.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2RevoluteJoint.js" />
+        <Compile Include="public\js\lib\box2d\dynamics\joints\b2RevoluteJointDef.js" />
+        <Content Include="public\Project\Engaged\engagedHTML.html" />
+        <Compile Include="public\Project\Engaged\engagedActionDefinitions.js" />
+        <Compile Include="public\Project\Engaged\engagedController.js" />
+        <Compile Include="public\Project\Engaged\engagedListener.js" />
+        <Compile Include="public\Project\Engaged\engagedMain.js" />
+        <Content Include="public\Project\Grid\gridHTML.html" />
+        <Compile Include="public\Project\Grid\gridActionDefinitions.js" />
+        <Compile Include="public\Project\Grid\gridController.js" />
+        <Compile Include="public\Project\Grid\gridListener.js" />
+        <Compile Include="public\Project\Grid\gridMain.js" />
+        <Compile Include="public\Project\Grid\gridUpdate.js" />
+        <Content Include="public\Project\Lobby\lobbyHTML.html" />
+        <Compile Include="public\Project\Lobby\lobbyController.js" />
+        <Content Include="public\Project\Login\loginHTML.html" />
+        <Compile Include="public\Project\Login\loginController.js" />
+        <Compile Include="public\Project\MainScreen\mainScreenController.js" />
+        <Compile Include="public\Project\_AI\projectile.js" />
+        <Compile Include="public\Project\_Core\body.js" />
+        <Compile Include="public\Project\_Core\draw.js" />
+        <Compile Include="public\Project\_Core\init.js" />
+        <Compile Include="public\Project\_Core\joint.js" />
+        <Compile Include="public\Project\_Core\listener.js" />
+        <Compile Include="public\Project\_Core\objectDefs.js" />
+        <Compile Include="public\Project\_Factories\pageFactory.js" />
+        <Compile Include="public\Project\_Factories\userFactory.js" />
+        <Compile Include="public\Project\Grid\functions\gridCreate.js" />
+        <Compile Include="public\Project\Grid\functions\gridInput.js" />
+        <Compile Include="public\Project\Grid\functions\gridSocket.js" />
+        <Compile Include="public\Project\Grid\functions\gridUserSprite.js" />
+        <Compile Include="public\Project\Grid\pc\pcMain.js" />
+        <Compile Include="public\Project\Grid\functions\actionDefs\swings.js" />
+        <Compile Include="public\Project\_Actions\functions\actionTriggers.js" />
+        <Compile Include="public\Project\_Actions\functions\fire.js" />
+        <Compile Include="public\Project\_Actions\generics\actionController.js" />
+        <Content Include="public\Project\_Directives\base\html\base.html" />
+        <Compile Include="public\Project\_Directives\base\js\base.js" />
+        <Content Include="public\Project\_Directives\sprites\html\character.html" />
+        <Compile Include="public\Project\_Directives\sprites\js\character.js" />
+        <Content Include="public\Project\_Directives\UI\html\action-button.html" />
+        <Compile Include="public\Project\_Directives\UI\js\action-button.js" />
+        <Compile Include="routes\project\init.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="fonts" />
+        <Folder Include="public" />
+        <Folder Include="public\Content" />
+        <Folder Include="public\Content\css" />
+        <Folder Include="public\Content\css\bootstrap" />
+        <Folder Include="public\images" />
+        <Folder Include="public\images\actions" />
+        <Folder Include="public\images\grid" />
+        <Folder Include="public\images\grid\bg" />
+        <Folder Include="public\images\grid\sprites" />
+        <Folder Include="public\images\misc" />
+        <Folder Include="public\images\misc\testSprite" />
+        <Folder Include="public\images\sprites" />
+        <Folder Include="public\images\sprites\_simple" />
+        <Folder Include="public\images\sprites\_simple\chars" />
+        <Folder Include="public\images\sprites\_simple\static" />
+        <Folder Include="public\images\sprites\static" />
+        <Folder Include="public\images\sprites\z_old" />
+        <Folder Include="public\js" />
+        <Folder Include="public\js\angular" />
+        <Folder Include="public\js\angular\Controllers" />
+        <Folder Include="public\js\angular\Factories" />
+        <Folder Include="public\js\Canvas" />
+        <Folder Include="public\js\Canvas\levels" />
+        <Folder Include="public\js\demos" />
+        <Folder Include="public\js\demos\ref" />
+        <Folder Include="public\js\lib" />
+        <Folder Include="public\js\lib\box2d" />
+        <Folder Include="public\js\lib\box2d\collision" />
+        <Folder Include="public\js\lib\box2d\collision\shapes" />
+        <Folder Include="public\js\lib\box2d\common" />
+        <Folder Include="public\js\lib\box2d\common\math" />
+        <Folder Include="public\js\lib\box2d\dynamics" />
+        <Folder Include="public\js\lib\box2d\dynamics\contacts" />
+        <Folder Include="public\js\lib\box2d\dynamics\joints" />
+        <Folder Include="public\js\misc" />
+        <Folder Include="public\Project" />
+        <Folder Include="public\Project\_Actions" />
+        <Folder Include="public\Project\_Actions\functions" />
+        <Folder Include="public\Project\_Actions\generics" />
+        <Folder Include="public\Project\_AI" />
+        <Folder Include="public\Project\_Core" />
+        <Folder Include="public\Project\_Directives" />
+        <Folder Include="public\Project\_Directives\base" />
+        <Folder Include="public\Project\_Directives\base\html" />
+        <Folder Include="public\Project\_Directives\base\js" />
+        <Folder Include="public\Project\_Directives\sprites" />
+        <Folder Include="public\Project\_Directives\sprites\html" />
+        <Folder Include="public\Project\_Directives\sprites\js" />
+        <Folder Include="public\Project\_Directives\UI" />
+        <Folder Include="public\Project\_Directives\UI\html" />
+        <Folder Include="public\Project\_Directives\UI\js" />
+        <Folder Include="public\Project\_Factories" />
+        <Folder Include="public\Project\Engaged" />
+        <Folder Include="public\Project\Grid" />
+        <Folder Include="public\Project\Grid\functions" />
+        <Folder Include="public\Project\Grid\functions\actionDefs" />
+        <Folder Include="public\Project\Grid\pc" />
+        <Folder Include="public\Project\Lobby" />
+        <Folder Include="public\Project\Login" />
+        <Folder Include="public\Project\MainScreen" />
+        <Folder Include="routes" />
+        <Folder Include="routes\project" />
+        <Folder Include="views" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>

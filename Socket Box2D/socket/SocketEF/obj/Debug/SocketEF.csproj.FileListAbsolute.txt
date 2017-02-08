@@ -1,0 +1,10 @@
+C:\socket\socket\SocketEF\obj\Debug\SocketEF.csprojResolveAssemblyReference.cache
+C:\socket\socket\SocketEF\bin\Debug\SocketEF.exe.config
+C:\socket\socket\SocketEF\bin\Debug\SocketEF.exe
+C:\socket\socket\SocketEF\bin\Debug\SocketEF.pdb
+C:\socket\socket\SocketEF\bin\Debug\EntityFramework.dll
+C:\socket\socket\SocketEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\socket\socket\SocketEF\bin\Debug\EntityFramework.xml
+C:\socket\socket\SocketEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\socket\socket\SocketEF\obj\Debug\SocketEF.exe
+C:\socket\socket\SocketEF\obj\Debug\SocketEF.pdb
